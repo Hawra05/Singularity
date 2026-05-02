@@ -22,7 +22,7 @@ Using ideas from physics, information theory, and computer science, the project 
 
 ### What can you explore?
 
-- Compare the informational complexity of different physical systems.
-- Explore the relationship between physics, computation, and data.
-- Interact with scientific ideas through a visual sci-fi inspired interface.
-- Use it as a starting point for thinking about digital twins, simulation theory, and the limits of computation.
+- See how much information different systems may require to be represented accurately (simulate)
+- Compare simple systems like empty space or atoms with more complex biological structures.
+- Explore how physics, computation, and data may be connected.
+- Think about bigger questions like digital twins, simulation theory, and the limits of computation.
