@@ -6,7 +6,8 @@ SINGULARITY calculates how many bits of information are contained in different
 physical systems ,be it atoms, cells, vacuum space and many simple organisms or systems using real physics equations.
 
 It's a hypothetical exercise asking what's the data footprint of reality?
-#why does it exist
+
+##why does it exist
 The project explores a fundamental question: if reality is information, 
 how much information is needed to describe it completely?
 
