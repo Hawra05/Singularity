@@ -12,3 +12,17 @@ By visualizing atoms, vacuum, and biological structures, it shows the complexity
 
 It's a hypothetical exercise asking what's the data footprint of reality?
 
+## Why Use Singularity?
+
+Singularity is a small interactive project that explores a simple but difficult question like:
+
+**What would it actually cost to represent reality with perfect accuracy?**
+
+Using ideas from physics, information theory, and computer science, the project examines roughly or tries to examine how much information may be required to describe different systems ,from empty space and atoms to more complex biological structures.
+
+### What can you explore?
+
+- Compare the informational complexity of different physical systems.
+- Explore the relationship between physics, computation, and data.
+- Interact with scientific ideas through a visual sci-fi inspired interface.
+- Use it as a starting point for thinking about digital twins, simulation theory, and the limits of computation.
