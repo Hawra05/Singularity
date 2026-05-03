@@ -27,4 +27,8 @@ Using ideas from physics, information theory, and computer science, the project 
 - Explore how physics, computation, and data may be connected.
 - Think about bigger questions like digital twins, simulation theory, and the limits of computation.
 ## Screenshots
-[home page] Screenshot(13).png
+## Screenshots
+
+![Home](Screenshot (13).png)
+![Absolute Space](Screenshot (14).png)
+![Hydrogen Atom](Screenshot (15).png)
