@@ -41,7 +41,7 @@ Using ideas from physics, information theory, and computer science, the project 
 
 ### steps  
 1. Clone the repository:
-git clone https://github.com/Hawra05/Singularity.git cd Singularity
+git clone https://github.com/Hawra05/Singularity.git 
 
 2. Install dependencies:
 npm install
