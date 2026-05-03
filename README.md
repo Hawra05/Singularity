@@ -32,3 +32,15 @@ Using ideas from physics, information theory, and computer science, the project 
 ![Absolute Space](Screenshot_vacuum.png)
 ![Hydrogen Atom](Screenshot_atom.png)
 
+## Live Demo
+
+## How to Run Locally
+### Requirements
+- Node.js  → Download from [nodejs.org](https://nodejs.org)
+- Gemini API key
+1) . Install dependencies:
+   `npm install`
+
+3. Run the app:
+   `npm run dev`
+
