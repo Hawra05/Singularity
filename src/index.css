@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Share Tech Mono", monospace;
+  --color-ui-teal: #00f2ff;
+  --bg-dark: #000508;
+  --border-ui: #0a1b26;
+}
+
+:root {
+  --ui-teal: #00f2ff;
+  --ui-glass: rgba(6, 18, 26, 0.9);
+  --ui-border: rgba(0, 242, 255, 0.2);
+}
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000508;
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+  }
+}
+
+/* Background Grid Pattern */
+.bg-grid {
+  background-image: radial-gradient(#00f2ff 0.5px, transparent 0.5px);
+  background-size: 30px 30px;
+}
+
+/* Custom scrollbar for HUD */
+.scroll-v::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll-v::-webkit-scrollbar-thumb {
+  background: var(--ui-teal);
+  border-radius: 10px;
+}
+
+/* Animation for the highlight text */
+@keyframes glow {
+  from { text-shadow: 0 0 5px var(--ui-teal); }
+  to { text-shadow: 0 0 15px var(--ui-teal), 0 0 20px var(--ui-teal); }
+}
+
+.hl-glow {
+  color: var(--ui-teal);
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
