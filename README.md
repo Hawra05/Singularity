@@ -37,8 +37,7 @@ Using ideas from physics, information theory, and computer science, the project 
 ## How to Run Locally
 ### Requirements
 - Node.js  → Download from [nodejs.org](https://nodejs.org)
-- Gemini API key  → [aistudio.google.com](https://aistudio.google.com)
-
+  
 ### steps  
 1. Clone the repository:
 git clone https://github.com/Hawra05/Singularity.git 
@@ -46,13 +45,10 @@ git clone https://github.com/Hawra05/Singularity.git
 2. Install dependencies:
 npm install
 
-3. Create a `.env.local` file in the root folder and add:
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-
-4. Run the project:
+3. Run the project:
 npm run dev
 
-5. Open your browser and go to `http://localhost:3000/`
+4. Open your browser and go to `http://localhost:3000/`
 
 ## Tech Stack
 
@@ -60,7 +56,6 @@ npm run dev
 - Three.js :3D particle visualizations
 - Tailwind CSS : styling
 - Vite : build tool
-- Gemini API —:realtime entity analysis
 - Google AI Studio :AI Assisted development
 
 ## License
