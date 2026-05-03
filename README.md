@@ -39,7 +39,7 @@ Using ideas from physics, information theory, and computer science, the project 
 - Node.js  → Download from [nodejs.org](https://nodejs.org)
 - Gemini API key  → [aistudio.google.com](https://aistudio.google.com)
 
-###steps  
+### steps  
 1. Clone the repository:
 git clone https://github.com/Hawra05/Singularity.git cd Singularity
 
