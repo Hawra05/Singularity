@@ -53,3 +53,12 @@ VITE_GEMINI_API_KEY=your_gemini_api_key_here
 npm run dev
 
 5. Open your browser and go to `http://localhost:3000/`
+
+## Tech Stack
+
+- React 18 + TypeScript — frontend framework
+- Three.js — 3D particle visualizations
+- Tailwind CSS — styling
+- Vite — build tool
+- Gemini API — real-time entity analysis
+- Google AI Studio —AI Assisted development
