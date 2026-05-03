@@ -37,10 +37,19 @@ Using ideas from physics, information theory, and computer science, the project 
 ## How to Run Locally
 ### Requirements
 - Node.js  → Download from [nodejs.org](https://nodejs.org)
-- Gemini API key
-1) . Install dependencies:
-   `npm install`
+- Gemini API key  → [aistudio.google.com](https://aistudio.google.com)
 
-3. Run the app:
-   `npm run dev`
+###steps  
+1. Clone the repository:
+git clone https://github.com/Hawra05/Singularity.git cd Singularity
 
+2. Install dependencies:
+npm install
+
+3. Create a `.env.local` file in the root folder and add:
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+
+4. Run the project:
+npm run dev
+
+5. Open your browser and go to `http://localhost:3000/`
