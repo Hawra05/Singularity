@@ -58,6 +58,3 @@ npm run dev
 - Vite : build tool
 - Google AI Studio :AI Assisted development
 
-## License
-
-MIT
