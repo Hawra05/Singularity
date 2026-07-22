@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'motion/react';
@@ -50,7 +45,7 @@ export default function App() {
   const fluctuationsRef = useRef<{ mesh: THREE.Mesh; life: number }[]>([]);
   const audioCtxRef = useRef<AudioContext | null>(null);
 
-  // --- AUDIO HELPERS ---
+  //  AUDIO HELPER
   const initAudio = () => {
     if (!audioCtxRef.current) {
       audioCtxRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
@@ -86,7 +81,7 @@ export default function App() {
     osc.stop(audioCtxRef.current.currentTime + 0.15);
   };
 
-  // --- TYPING ANIMATION ---
+  //  TYPING ANIMATION 
   const typeText = (target: "bits" | "logic", text: string, speed: number) => {
     let i = 0;
     const setter = target === "bits" ? setBitsText : setLogicText;
@@ -100,7 +95,7 @@ export default function App() {
     return interval;
   };
 
-  // --- THREE.JS ENGINE ---
+  // THREE.JS ENGINE.
   useEffect(() => {
     if (!isEngaged || !containerRef.current) return;
 
@@ -244,7 +239,6 @@ export default function App() {
     initAudio();
     playZipSound();
     setIsEngaged(true);
-    // Wait for canvas to be ready before initial model draw
     setTimeout(() => {
       switchTarget('space');
     }, 100);
