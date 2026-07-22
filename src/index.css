@@ -32,7 +32,7 @@
   background-size: 30px 30px;
 }
 
-/* Custom scrollbar for HUD */
+/* Custom scrollbar */
 .scroll-v::-webkit-scrollbar {
   width: 4px;
 }
@@ -42,7 +42,7 @@
   border-radius: 10px;
 }
 
-/* Animation for the highlight text */
+/* Animation for the highlight textss */
 @keyframes glow {
   from { text-shadow: 0 0 5px var(--ui-teal); }
   to { text-shadow: 0 0 15px var(--ui-teal), 0 0 20px var(--ui-teal); }
