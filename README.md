@@ -34,21 +34,50 @@ Using ideas from physics, information theory, and computer science, the project 
 
 ## Live Demo
  link: https://singularity-git-main-hawra05s-projects.vercel.app/
-## How to Run Locally
-### Requirements
-- Node.js  → Download from [nodejs.org](https://nodejs.org)
-  
-### steps  
-1. Clone the repository:
-git clone https://github.com/Hawra05/Singularity.git 
 
-2. Install dependencies:
+# How to Run Locally
+
+Follow these steps to set up and run Project Singularity on your local machine.
+
+## Requirements
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- npm (included with Node.js)
+- Git
+
+## Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Hawra05/Singularity.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Singularity
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
+```
 
-3. Run the project:
+### 4. Start the development server
+
+```bash
 npm run dev
+```
 
-4. Open your browser and go to `http://localhost:3000/`
+### 5. Open the application
+
+Once the development server is running, open your browser and visit:
+
+```text
+http://localhost:3000/
+```
 
 ## Tech Stack
 
