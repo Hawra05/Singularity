@@ -52,7 +52,7 @@ npm run dev
 
 ## Tech Stack
 
-- React 18 + TypeScript :frontend framework
+- React 19 + TypeScript :frontend framework
 - Three.js :3D particle visualizations
 - Tailwind CSS : styling
 - Vite : build tool
